@@ -17,17 +17,5 @@ make massdrop/ctrl:pratyushtewari
 ```
 
 To install it to your massdrop keyboard
-
-- Copy the following files in the same folder
-  ```
-  1. massdrop_ctrl_pratyushtewari.bin
-  2. applet-flash-samd51j18a.bin
-  3. mdloader_mac
-  ```
-  You can find the `mdloader_mac` and `applet-flash-samd51j18a.bin` from [mdloader](https://github.com/Massdrop/mdloader)
-- Put the keyboard in DFU Mode by pressing <kbd>Mod (1)</kbd> + <kbd>B</kbd>
-- Run 
-  ```
-  ./mdloader_mac --first --download massdrop_ctrl_pratyushtewari.bin  --restart
-  ```
+- Use QMK Toolbox
 More detailed instructions are at [mdloader](https://github.com/Massdrop/mdloader)
